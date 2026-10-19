@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adatközpontok – A digitális világ motorjai</title>
+<style>
+:root{--bg:#06111f;--panel:#0b2035;--blue:#169cff;--cyan:#42dcff;--green:#38dfa0;--text:#edf7ff;--muted:#b7cadd;--border:#194363}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top right,#0b2e4d,var(--bg) 45%);color:var(--text);font:16px/1.65 Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#04101eee;border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.nav{max-width:1100px;margin:auto;padding:15px 22px;display:flex;justify-content:space-between;align-items:center;gap:18px}.brand{font-weight:800;color:var(--cyan);text-decoration:none}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none;font-size:.93rem}nav a:hover{color:var(--cyan)}
+.wrap{max-width:1100px;margin:auto;padding:0 22px}.hero{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:65px 0}
+.eyebrow{color:var(--green);text-transform:uppercase;letter-spacing:2px;font-size:.8rem;font-weight:bold}h1{font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.08;margin:12px 0 20px}h1 span,h2 span{color:var(--cyan)}p{color:var(--muted)}
+.btn{display:inline-block;background:linear-gradient(100deg,#087cff,#12b9e8);padding:12px 19px;border-radius:9px;text-decoration:none;color:white;font-weight:bold;margin-top:10px}
+img{max-width:100%}.hero-img,.feature-img{width:100%;display:block;border:1px solid var(--border);border-radius:16px}
+section{padding:58px 0;border-top:1px solid #102d47}.intro{max-width:750px;margin-bottom:26px}h2{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.2;margin:0 0 12px}h3{margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,#0e2740,#081829);border:1px solid var(--border);border-radius:14px;padding:22px}.icon{font-size:2rem;color:var(--cyan)}.card p{margin-bottom:0;font-size:.96rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.bars{display:grid;gap:17px}.bar-label{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.93rem}.track{height:10px;background:#183047;border-radius:99px;overflow:hidden;margin-top:7px}.fill{height:100%;background:linear-gradient(90deg,#087cff,#42dcff);border-radius:99px}
+.note{margin-top:20px;padding:14px 16px;background:#0d343266;border-left:3px solid var(--green);border-radius:0 10px 10px 0;color:var(--muted)}.pill{display:inline-block;padding:5px 10px;border:1px solid #1c5576;color:var(--cyan);border-radius:99px;font-size:.8rem;margin:3px}
+footer{text-align:center;padding:26px;color:#8da7bf;border-top:1px solid var(--border);font-size:.9rem}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero,.split{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.hero{padding:38px 0}section{padding:42px 0}}
+</style>
+</head>
+<body>
+<header><div class="nav"><a class="brand" href="#fooldal">◈ ADATKÖZPONTOK</a><nav aria-label="Fő navigáció"><a href="#fooldal">Főoldal</a><a href="#aram">Áramfogyasztás</a><a href="#redundancia">Redundancia</a><a href="#ai">AI szerepe</a></nav></div></header>
+<main class="wrap">
+<section class="hero" id="fooldal" style="border-top:0">
+<div><div class="eyebrow">A digitális világ alapja</div><h1>Az adatközpontok a digitális világ <span>motorjai.</span></h1>
+<p>Az adatközpontok nagy teljesítményű szervereknek és hálózati eszközöknek adnak otthont. Ezek tárolják, feldolgozzák és továbbítják az adatokat, amelyekre a weboldalak, alkalmazások és online szolgáltatások épülnek.</p><a class="btn" href="#bemutatas">Fedezd fel ↓</a></div>
+<img class="hero-img" src="images/adatkozpont.svg" alt="Szerverállványok egy modern adatközpontban">
+</section>
+<section id="bemutatas"><div class="intro"><h2>Mi az <span>adatközpont?</span></h2><p>Olyan biztonságos létesítmény, ahol számítógépes rendszereket és a hozzájuk szükséges infrastruktúrát működtetik.</p></div>
+<div class="grid"><article class="card"><div class="icon">▤</div><h3>Szerverek</h3><p>Adatokat tárolnak és dolgoznak fel, valamint weboldalakat és alkalmazásokat szolgálnak ki.</p></article>
+<article class="card"><div class="icon">◎</div><h3>Hálózat</h3><p>Összeköti a szervereket egymással és az internettel, így az adatok eljutnak a felhasználókhoz.</p></article>
+<article class="card"><div class="icon">⬡</div><h3>Biztonság</h3><p>Fizikai védelem és informatikai biztonság segít megóvni az adatokat.</p></article></div></section>
+<section id="aram"><div class="split"><div><div class="eyebrow">Energia és hatékonyság</div><h2>Az <span>áramfogyasztás</span></h2><p>Az adatközpontok folyamatosan működnek, ezért sok villamos energiát használnak. Nemcsak a szerverek, hanem a hűtés, a hálózati eszközök és a tartalék rendszerek is fogyasztanak áramot.</p><img class="feature-img" src="images/aramfogyasztas.svg" alt="Az adatközpont energiafelhasználásának ábrája"></div>
+<div class="card"><h3>Az energiafelhasználás szemléltető megoszlása</h3><p><small>Az arányok példák, adatközpontonként változhatnak.</small></p><div class="bars">
+<div><div class="bar-label"><span>IT-eszközök, szerverek</span><strong>40%</strong></div><div class="track"><div class="fill" style="width:40%"></div></div></div>
+<div><div class="bar-label"><span>Hűtés és klíma</span><strong>30%</strong></div><div class="track"><div class="fill" style="width:30%;background:linear-gradient(90deg,#27c889,#64f0b5)"></div></div></div>
+<div><div class="bar-label"><span>Áramellátás és veszteségek</span><strong>15%</strong></div><div class="track"><div class="fill" style="width:15%;background:linear-gradient(90deg,#ffb52e,#ffdc70)"></div></div></div>
+<div><div class="bar-label"><span>Világítás és egyéb</span><strong>15%</strong></div><div class="track"><div class="fill" style="width:15%;background:linear-gradient(90deg,#9857ff,#c19bff)"></div></div></div></div>
+<div class="note"><strong>Hogyan csökkenthető?</strong><br>Hatékony hűtéssel, energiatakarékos szerverekkel, megújuló energiával és intelligens felügyelettel.</div></div></div></section>
+<section id="redundancia"><div class="intro"><div class="eyebrow">Folyamatos rendelkezésre állás</div><h2><span>Redundancia:</span> legyen tartalék megoldás</h2><p>A redundancia azt jelenti, hogy a kritikus rendszerekből tartalék is rendelkezésre áll. Hiba esetén egy másik rendszer átveheti a feladatot, így csökkenthető a leállás kockázata.</p></div>
+<img class="feature-img" src="images/redundancia-ai.svg" alt="Tartalék szerverrendszerek és AI illusztrációja">
+<div class="grid" style="margin-top:18px"><article class="card"><div class="icon">ϟ</div><h3>Tartalék áramellátás</h3><p>UPS-ek és generátorok segíthetnek áthidalni az áramszüneteket.</p></article><article class="card"><div class="icon">❄</div><h3>Tartalék hűtés</h3><p>A tartalék hűtőrendszer segít megfelelő hőmérsékleten tartani a berendezéseket.</p></article><article class="card"><div class="icon">⇄</div><h3>Több hálózati útvonal</h3><p>Alternatív kapcsolatok csökkentik annak esélyét, hogy egyetlen hiba teljes leállást okozzon.</p></article></div></section>
+<section id="ai"><div class="split"><div><div class="eyebrow">Intelligens működés</div><h2>Az <span>AI szerepe</span> az adatközpontokban</h2><p>A mesterséges intelligencia elemezheti a szenzorok adatait, segíthet előre jelezni a meghibásodásokat, optimalizálni a hűtést és hatékonyabban elosztani a számítási feladatokat.</p><span class="pill">Hibák előrejelzése</span><span class="pill">Hűtés optimalizálása</span><span class="pill">Energiahatékonyság</span><span class="pill">Biztonság</span></div>
+<div class="card"><h3>Hogyan segít az AI?</h3><p><strong style="color:var(--cyan)">01 · Előrejelzés</strong><br>Felismerheti a szokatlan működést, mielőtt komolyabb hiba történne.</p><p><strong style="color:var(--green)">02 · Optimalizálás</strong><br>Az aktuális terheléshez igazíthatja a hűtést és az erőforrásokat.</p><p><strong style="color:#b99aff">03 · Automatizálás</strong><br>Segíthet a rutinfeladatokban és gyorsíthatja az üzemeltetők munkáját.</p><div class="note">Az AI maga is számítási kapacitást és energiát igényel, ezért fontos a felelős használata.</div></div></div></section>
+</main><footer>Adatközpontok – bemutató weboldal · HTML és SVG grafikák · GitHub Pages-re feltölthető</footer>
+</body></html>
